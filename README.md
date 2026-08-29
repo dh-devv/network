@@ -12,6 +12,9 @@
 - 네트워크 프로토콜의 역할과 구조 학습
 - TCP/IP 프로토콜 및 OSI 7계층 이해
 - 데이터 패킷의 전송 과정 학습
+- TCP/IP 4계층의 역할과 특징 이해
+- IPv4 / IPv6 및 주요 네트워크 프로토콜 학습
+- TCP / UDP의 특징과 차이 이해
 - Wireshark를 활용한 패킷 분석
 - 네트워크 실습 및 학습 내용 기록
 
@@ -22,13 +25,7 @@
 ```text
 Network/
 ├── 01-Network-Basic/
-│   ├── osi-7-layer.md
-│   ├── tcp-ip.md
-│   ├── network-packet.md
-│   └── network-protocol.md
-│
 ├── 02-Protocols/
-│
 └── 03-Lab/
 ```
 
@@ -45,14 +42,40 @@ Network/
 
 ### Protocols
 
-- TCP
-- UDP
-- HTTP
-- HTTPS
-- DNS
-- DHCP
-- ARP
-- ICMP
+- 네트워크 액세스 계층 (Network Access Layer)
+  - 물리 계층 (Physical Layer)
+  - 데이터 링크 계층 (Data Link Layer)
+  - Ethernet Frame
+  - MAC Address
+  - 노드(Node)와 링크(Link)
+
+- 인터넷 계층 (Internet Layer)
+  - IPv4 / IPv6
+  - IP Address
+  - ICMP
+  - ARP / RARP
+  - IGMP
+  - RIP / OSPF
+  - Routing
+
+- 전송 계층 (Transport Layer)
+  - 프로세스(Process) 간 통신
+  - Port Number
+  - TCP
+  - UDP
+  - 연결형 / 비연결형 서비스
+  - 오류 제어 / 흐름 제어
+
+- 응용 계층 (Application Layer)
+  - HTTP
+  - FTP
+  - TELNET
+  - SMTP
+  - POP
+  - DNS
+  - TFTP
+  - DHCP
+  - SNMP
 
 ### Lab
 
