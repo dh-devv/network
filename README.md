@@ -1,114 +1,58 @@
-# 🌐 Network
+# Network Study
 
-네트워크(Network)를 학습하며 이론, 프로토콜, 데이터 전송 과정, 실습 내용을 정리하는 저장소입니다.
+네트워크의 기본 개념과 TCP/IP 프로토콜을 학습하고, 직접 이해한 내용을 정리하는 저장소입니다.
 
-> **목표는 단순한 필기가 아닌, 학습한 내용을 직접 정리하고 기록하여 꾸준히 성장하는 것입니다.**
+단순한 개념 암기보다 **데이터가 네트워크를 통해 어떻게 전달되는지 이해하는 것**을 목표로 공부하고 있습니다.
 
----
+## Goals
 
-# 📚 학습 목표
+- 네트워크의 기본 구조와 동작 원리 이해
+- TCP/IP 및 OSI 계층의 역할 이해
+- IP Address, MAC Address, Port의 역할 이해
+- Switch, Router, Gateway의 동작 원리 학습
+- 주요 네트워크 프로토콜 학습
+- Packet Tracer와 Wireshark를 활용한 실습
+- Linux Server 및 AWS 학습에 필요한 네트워크 기반 지식 습득
 
-- 네트워크의 기본 개념 이해
-- 네트워크 프로토콜의 역할과 구조 학습
-- TCP/IP 프로토콜 및 OSI 7계층 이해
-- 데이터 패킷의 전송 과정 학습
-- TCP/IP 4계층의 역할과 특징 이해
-- IPv4 / IPv6 및 주요 네트워크 프로토콜 학습
-- TCP / UDP의 특징과 차이 이해
-- Wireshark를 활용한 패킷 분석
-- 네트워크 실습 및 학습 내용 기록
-
----
-
-# 📂 폴더 구성
-
-```text
-Network/
-├── 01-Network-Basic/
-├── 02-Protocols/
-└── 03-Lab/
-```
-
----
-
-# 📝 학습 내용
+## Contents
 
 ### Network Basic
-
-- 네트워크 프로토콜
-- TCP/IP 프로토콜
-- OSI 7계층
-- 네트워크 데이터 패킷
+- Network
+- LAN / WAN
+- Network Media
+- Hub / Switch / Router
+- Gateway
+- Internet
 
 ### Protocols
-
-- 네트워크 액세스 계층 (Network Access Layer)
-  - 물리 계층 (Physical Layer)
-  - 데이터 링크 계층 (Data Link Layer)
-  - Ethernet Frame
-  - MAC Address
-  - 노드(Node)와 링크(Link)
-
-- 인터넷 계층 (Internet Layer)
-  - IPv4 / IPv6
-  - IP Address
-  - ICMP
-  - ARP / RARP
-  - IGMP
-  - RIP / OSPF
-  - Routing
-
-- 전송 계층 (Transport Layer)
-  - 프로세스(Process) 간 통신
-  - Port Number
-  - TCP
-  - UDP
-  - 연결형 / 비연결형 서비스
-  - 오류 제어 / 흐름 제어
-
-- 응용 계층 (Application Layer)
-  - HTTP
-  - FTP
-  - TELNET
-  - SMTP
-  - POP
-  - DNS
-  - TFTP
-  - DHCP
-  - SNMP
+- TCP/IP
+- OSI 7 Layer
+- Ethernet / MAC Address
+- IPv4 / IPv6
+- ARP / ICMP
+- TCP / UDP
+- HTTP / DNS / DHCP
 
 ### Lab
+- IP 및 Gateway 설정
+- Ping Test
+- Packet Tracer
+- Wireshark Packet Analysis
+- Linux Network 실습
 
-- Wireshark 패킷 분석
-- PING 테스트
-- 네트워크 실습 기록
-
----
-
-# 🛠️ 개발 환경
+## Environment
 
 - Windows 11
-- Visual Studio Code
-- VMware Workstation
 - Ubuntu 24.04 LTS
+- VMware Workstation
+- Cisco Packet Tracer
+- Wireshark
+- Visual Studio Code
 
----
+## Learning Direction
 
-# 📈 학습 기록
+네트워크를 독립적인 이론으로만 공부하지 않고 다음 분야와 연결하여 학습하고 있습니다.
 
-학습 과정은 **Learning Log**를 통해 꾸준히 기록합니다.
+**Network → Linux Server → Docker → AWS / Cloud**
 
-기록 내용
-- 학습 주제
-- 배운 내용
-- 어려웠던 점
-- 느낀 점
-- 다음 학습 계획
-
----
-
-# 🎯 학습 목표
-
-이 저장소는 네트워크 기초부터 프로토콜, 패킷 분석, 실습까지 학습한 내용을 체계적으로 정리하기 위한 공간입니다.
-
-앞으로 Linux, Server, Database, AWS 학습과 연계하여 지속적으로 업데이트할 예정입니다.
+앞으로 실제 서버 및 클라우드 환경에서 네트워크를 직접 구성하고, 문제가 발생했을 때 통신 구조를 기반으로 원인을 분석할 수 있는 역량을 키우는 것이 목표입니다.
