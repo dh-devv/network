@@ -24,6 +24,12 @@
 - Gateway
 - Internet
 
+추가 학습 정리:
+
+- [네트워크 프로토콜의 규칙과 종류](Basic/05_network_protocol_types.md)
+- [유니캐스트, 브로드캐스트, 멀티캐스트](Basic/06_network_transmission_methods.md)
+- [MAC 주소와 IP 주소](Basic/07_mac_and_ip_address.md)
+
 ### Protocols
 - TCP/IP
 - OSI 7 Layer
@@ -32,6 +38,14 @@
 - ARP / ICMP
 - TCP / UDP
 - HTTP / DNS / DHCP
+
+주소와 데이터 전달 과정:
+
+- [ARP와 MAC 주소 확인](Protocols/09_arp.md)
+- [LAN과 WAN의 데이터 전달 과정](Protocols/10_lan_wan_data_delivery.md)
+- [OSI와 TCP/IP 계층별 역할 비교](Protocols/11_osi_tcp_ip_comparison.md)
+- [주요 서비스와 포트 번호](Protocols/12_common_service_ports.md)
+- [IPv4 주소 체계와 서브넷 마스크](Protocols/13_ipv4_addressing.md)
 
 ### Lab
 - IP 및 Gateway 설정
