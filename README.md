@@ -29,6 +29,7 @@
 - [네트워크 프로토콜의 규칙과 종류](Basic/05_network_protocol_types.md)
 - [유니캐스트, 브로드캐스트, 멀티캐스트](Basic/06_network_transmission_methods.md)
 - [MAC 주소와 IP 주소](Basic/07_mac_and_ip_address.md)
+- [Ethernet 매체 표기와 케이블 종류](Basic/08_ethernet_media_standards.md)
 
 ### Protocols
 - TCP/IP
@@ -46,6 +47,7 @@
 - [OSI와 TCP/IP 계층별 역할 비교](Protocols/11_osi_tcp_ip_comparison.md)
 - [주요 서비스와 포트 번호](Protocols/12_common_service_ports.md)
 - [IPv4 주소 체계와 서브넷 마스크](Protocols/13_ipv4_addressing.md)
+- [IPv4 서브네팅](Protocols/14_subnetting.md)
 
 ### Lab
 - IP 및 Gateway 설정
